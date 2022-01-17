@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+     <span id="open">
+        <a onclick="openSlideMenu()" href="#">
+           open
+        </a>
+     </span>
+     
+     <ul>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+     </ul>
+     
+     <div id="manu">
+        <a href="#" onclick="close()">xxx</a>
+        <a href="h">Home</a>
+        <a href="h">Home</a>
+        <a href="h">Home</a>
+        <a href="h">Home</a>
+     </div>
+     <div id="manu_side">
+        <h1>google</h1>
+     </div>
+  </nav>
+  <script src="main.js">
+     
+   function openSlideMenu() {
+   document.getElementById('manu').style.background='200px';
+   document.getElementById('manu_side').style.marginLeft='200px';     
+     }
+  </script>
+</body>
+</html>
